@@ -1,4 +1,4 @@
-import { Button } from "@/app/components/ui/button";
+import { Button } from "@/button";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 

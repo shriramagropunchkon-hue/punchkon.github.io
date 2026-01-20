@@ -1,10 +1,10 @@
-import { Header } from "@/app/components/Header";
-import { Hero } from "@/app/components/Hero";
-import { Features } from "@/app/components/Features";
-import { TargetAudience } from "@/app/components/TargetAudience";
-import { Benefits } from "@/app/components/Benefits";
-import { CTA } from "@/app/components/CTA";
-import { Footer } from "@/app/components/Footer";
+import { Header } from "@/Header";
+import { Hero } from "@/Hero";
+import { Features } from "@/Features";
+import { TargetAudience } from "@/TargetAudience";
+import { Benefits } from "@/Benefits";
+import { CTA } from "@/CTA";
+import { Footer } from "@/Footer";
 
 export default function App() {
   return (

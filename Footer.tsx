@@ -1,6 +1,5 @@
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
-import { motion } from "motion/react";
-import logo from "figma:asset/11dd64841df371a284ca58a21ff3e2b67625280e.png";
+import { motion } from "framer-motion";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -18,7 +17,7 @@ export function Footer() {
             transition={{ duration: 0.5 }}
           >
             <motion.img
-              src={logo}
+              src={"https://via.placeholder.com/320x80.png?text=Punchkon"}
               alt="Punchkon"
               className="h-20 mb-4"
               whileHover={{ scale: 1.05 }}

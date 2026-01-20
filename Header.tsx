@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-import { Button } from "@/app/components/ui/button";
+import { Button } from "@/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "figma:asset/11dd64841df371a284ca58a21ff3e2b67625280e.png";
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,7 +41,7 @@ export function Header() {
             transition={{ duration: 0.2 }}
           >
             <img
-              src={logo}
+              src={"https://via.placeholder.com/160x60.png?text=Punchkon"}
               alt="Punchkon Logo"
               className={`cursor-pointer transition-all duration-300 ${
                 isScrolled ? "h-12 md:h-16" : "h-14 md:h-20"

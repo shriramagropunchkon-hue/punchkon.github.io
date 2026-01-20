@@ -1,7 +1,6 @@
-import { Button } from "@/app/components/ui/button";
+import { Button } from "@/button";
 import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
-import logo from "figma:asset/11dd64841df371a284ca58a21ff3e2b67625280e.png";
 
 export function Hero() {
   const scrollToSection = (id: string) => {
@@ -24,7 +23,7 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <motion.img
-          src={logo}
+          src={"https://via.placeholder.com/720x240.png?text=Punchkon"}
           alt="Punchkon"
           className="h-40 md:h-56 lg:h-72 mx-auto mb-8"
           initial={{ opacity: 0, scale: 0.5 }}
